@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url(/app/assets/stylesheets/cardo.css);
+ @import url(/app/assets/stylesheets/navbar.css);
+ @import url(/app/assets/stylesheets/show.css);
+
+ h1 {
+  color: #0d6efd;
+
+ }
+
+ .flat-card-more-info a {
+  text-decoration: none;
+ }
+
+ .form-new-flat{
+  background-color: #f8f9fa;
+  width: 900px;
+  padding: 10px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border: solid 1px #777;
+ }
